@@ -1,0 +1,183 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  height: 100vh;
+}
+
+.sectionsHome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.contentHomeLeft {
+  background-color: #464646;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  padding: 30px;
+  border-radius: 12px;
+  gap: 30px;
+}
+
+.contentHomeLeftText {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.contentHomeRight {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  background-color: #464646;
+  padding: 30px;
+  max-width: 50%;
+  border-radius: 12px;
+}
+
+.sobre, .skills, .linguagens {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formacoesContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #464646;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 50%;
+}
+
+.formacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formacao {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #181818;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.sectionsFormacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.softContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #464646;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 40%;
+  height: 100%;
+}
+
+.sectionFC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.soft, .lang {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 70%;
+}
+
+.soft ul, .lang ul {
+  padding-left: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.sectionsProjetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.projetosContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 90%;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #464646;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.projeto:hover {
+  transform: scale(1.05);
+}
