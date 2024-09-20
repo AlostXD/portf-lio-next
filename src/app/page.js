@@ -22,7 +22,7 @@ export default function Home() {
             <h2>Vanderlei "Alost" Junio</h2>
             <h3>Developer</h3>
             <p>
-              Sou um desenvolvedor cursando Sistemas da Informação na UNIPAM (Univercidade de Patos de Minas)
+              Sou um desenvolvedor cursando Sistemas da Informação na UNIPAM (Universidade de Patos de Minas)
             </p>
           </div>
         </div>
